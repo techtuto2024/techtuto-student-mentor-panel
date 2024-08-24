@@ -61,7 +61,7 @@ export const sendClassDetails = async (classDetails: ClassDetails) => {
 export const fetchClassDetails = async (
   id: string | undefined,
   idType: string,
-  token: string
+  token?: string
 ) => {
   try {
     const response = await axios.get(

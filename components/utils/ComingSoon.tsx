@@ -22,7 +22,7 @@ const ComingSoon: React.FC<ComingSoonProps> = ({
           {featureName}
         </h2>
         <p className="text-gray-600 dark:text-gray-400 mb-6">
-          We're working hard to bring you this exciting new feature. Stay tuned
+          We are working hard to bring you this exciting new feature. Stay tuned
           for updates!
         </p>
         {estimatedRelease && (
