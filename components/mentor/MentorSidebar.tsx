@@ -31,7 +31,7 @@ const MentorSidebar = () => {
       <div className="flex flex-row items-center justify-between">
         <Link href="/" className="flex flex-row items-center gap-2">
           <Image
-            src="/v1724591750/imagessvoag6dn9uu4dputwll6.png"
+            src="/v1724591750/images/svoag6dn9uu4dputwll6.png"
             alt="TechTuto"
             height={100}
             width={40}
