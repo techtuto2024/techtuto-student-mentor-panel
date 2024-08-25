@@ -20,10 +20,7 @@ export function useAuth() {
     const verifyToken = async () => {
       try {
         // Get the token from the cookies
-        console.log("log before getCookie")
         const token = getCookie('token');
-        console.log("log after getCookie")
-        console.log(token)
         if (!token) {
           throw new Error('No token found');
         }

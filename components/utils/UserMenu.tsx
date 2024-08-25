@@ -72,7 +72,7 @@ function UserMenu() {
               />
               <AvatarFallback>
                 <Image
-                  src="/images/placeholder.png"
+                  src="/v1724591750/images/m9xaheia6mnpc622pqlj.jpg"
                   alt="User"
                   height={32}
                   width={32}

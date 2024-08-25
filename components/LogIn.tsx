@@ -27,7 +27,6 @@ const LogIn = () => {
     try {
       const response = await login(email, password);
       const userRole = response.user.role;
-      console.log(response.user.role);
 
       // Store role in local storage
       localStorage.setItem("userRole", userRole);
@@ -58,7 +57,6 @@ const LogIn = () => {
   useEffect(() => {
     if (!isLoading && isAuthenticated) {
       const storedRole = localStorage.getItem("userRole");
-      console.log(storedRole);
       if (storedRole) {
         switch (storedRole) {
           case "student":
@@ -91,7 +89,7 @@ const LogIn = () => {
       <div className="flex flex-col gap-5 items-start justify-center lg:px-32 md:px-20 p-6 lg:w-1/2 w-full bg-gray-100 dark:bg-[#1E1E1E] h-screen rounded-lg dark:text-white">
         <div className="flex flex-row items-center gap-2">
           <Image
-            src="/images/techtuto-logo.png"
+            src="/v1724591751/images/svoag6dn9uu4dputwll6.png"
             alt="TechTuto"
             height={100}
             width={40}
@@ -149,7 +147,7 @@ const LogIn = () => {
           One-on-one online tutoring for students of all ages
         </p>
         <Image
-          src="/images/login-img.png"
+          src="/v1724591752/images/tj6zyqc3r5udy75qbyjw.png"
           alt="TechTuto Login"
           height={100}
           width={500}
